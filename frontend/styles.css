@@ -1,0 +1,175 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-image: url("LV-undying-prev2.jpg");
+    user-select: none;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-image: url("maska-vzglad-artwork-dota-21.jpg");
+    font-size: 42px;
+    color: plum;
+}
+
+.container {
+    text-align: center;
+}
+
+.content {
+    display: block;
+    padding: 20px;
+    position: relative;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    border-radius: 15px;
+    color: black;
+    margin: 15px;
+}
+
+.block-results {
+    display: inline-block;
+    margin-left: 20px;
+    background: rgb(103, 181, 218);
+    border-radius: 25px;
+    height:  auto;
+    min-height: 480px;
+    color: #FFF;
+    width: 40%;
+}
+
+.block-console {
+    display: inline-block;
+    margin-right: 20px;
+    background: rgb(103, 181, 218);
+    border-radius: 25px;
+    width: 40%;
+    min-height: 200px;
+    float: right;
+}
+
+.block-results-header {
+    background: #FFF;
+}
+
+.block-results-content {
+    background: white;
+    border-radius: 15px;
+    margin: 15px;
+    height: 70%;
+    color: black;
+    background-image: url("NmxvRTJrTnN2aQ==.jpg");
+}
+
+.scrollbar {
+    overflow-y: scroll;
+}
+
+.block-console-header {
+    background: #FFF;
+}
+
+.block-console-content {
+    display: block;
+    background: white;
+    border-radius: 15px;
+    margin: 15px;
+    min-height: 22%;
+    color: black;
+    background-image: url("hqdefault.jpg");
+}
+
+.block-actions-heroe {
+    display: inline-block;
+    margin-left: 20px;
+    color: black;
+    width: 50%;
+}
+
+.block-actions-heroes {
+    display: inline-block;
+    margin-right: 20px;
+    width: 40%;
+    float: right;
+}
+
+.actions-heroe{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.field-heroe {
+    float: right;
+    width: 30%;
+    height: 17px;
+}
+
+.button-add-heroe{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.block-heroe {
+    display: inline-block;
+    margin: 20px;
+    outline: 2px solid gray;
+    width: 93%;
+    height: auto;
+    background-color: aliceblue;
+}
+
+
+.block-heroe-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-delete-heroe{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-weight: 700;
+    color: white;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(192, 27, 27);
+    transition: 0.2s;
+}
+
+.button-delete-heroe:hover {background: rgb(139, 21, 21);}
+
+.button-delete-heroe:active {
+    background:rgb(192, 27, 27);
+}
+
+.name-heroe {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.hero-haracteristics {
+    display: inline-block;
+    padding: 12px;
+}
+
+.button-sort {
+    width: 100%;
+    height: auto;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 19px;
+    transition: 0.3s;
+    margin: 4px 0px;
+}
+
+.button-sort:hover {background: #2c76ff}
+
+.button-sort:active {background: cornflowerblue}

@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab2</title>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+
+<body>
+    <header>
+        <div class='container'>
+            <h2>Дота 2 герои хранилища разработано александром шабалкиным</h2>
+        </div>
+    </header>
+
+    <div class='content'>
+        <div class='block-results'>
+            <div class="flex block-results-header">
+                <h1>Содержимое</h1>
+            </div>
+        <div class="block-results-content scrollbar">
+              
+        </div>
+    </div>
+
+        <div class='block-console'>
+            <div class="flex block-console-header">
+                <h1>Консоль</h1>
+            </div>
+            <div class="block-console-content">
+                <div class="block-actions-heroe">
+                    <div class="header-block-heroe">
+                        <h3>Добавить героя</h3>
+                    </div>
+                    <div class="actions-heroe">
+                        <div>Название героя : <input id="name_heroe" class="field-heroe" type="text" value="Abadon"></div>
+                        <div>Количество здоровья : <input id="count_health" class="field-heroe" type="text" value="700"></div>
+                        <div>Урон : <input id="damage" class="field-heroe" type="text" value="67"></div>
+                        <div>Мана : <input id="mana" class="field-heroe" type="text" value="250"></div>
+                        <div>Тип героя : 
+                            <select class="field-heroe" id="attribute">
+                                <option>Сила</option>
+                                <option>Ловкость</option>
+                                <option>Интелект</option>
+                            </select>
+                        </div>
+                        <button class="button-add-heroe" onclick="add()">ДОБАВИТЬ</button>
+                    </div>
+                </div>
+                
+                <div class="block-actions-heroes">
+                    <div class="header-block-heroes">
+                        <h3>События</h3>
+                    </div>
+                    <div class="actions-heroes">
+                        <button class="button-sort" onclick="getSortedDataByDamage('Damage')">Отсортировать по урону</button>
+                        <button class="button-sort" onclick="getSortedDataByDamage('Mana')">Отсортировать по мане</button>
+                        <button class="button-sort" onclick="getSortedDataByDamage('Health')">Отсортировать по здоровью</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
